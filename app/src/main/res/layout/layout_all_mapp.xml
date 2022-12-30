@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:background="@color/white"
+        android:id="@+id/relative_edit">
+
+    <include
+        layout="@layout/layout_header_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/include_one"
+ />
+
+    <ProgressBar
+        android:id="@+id/progress_wheel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+
+
+    <include
+            layout="@layout/layout_map_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/include"/>
+
+
+    <!--
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Present"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_black_background"
+                    android:textColor="@color/cl_white"
+                    android:id="@+id/button_present"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button_normal"
+                    android:layout_toStartOf="@+id/button_normal" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Absent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_black_background"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/button_absent"
+                    android:textColor="@color/cl_white"
+                    android:layout_alignParentTop="true"
+                  />-->
+
+
+
+
+
+
+
+
+</LinearLayout>
+    </RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="top|center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payroll Login"
+                android:gravity="start"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginBottom="5dp"
+
+                android:textColor="@color/black"
+                android:drawablePadding="6dp"
+                android:padding="4dp"/>
+
+
+
+            <EditText
+                android:id="@+id/edt_userid_pg"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/edittext_corner_round_distributor"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Login Id"
+                android:textSize="15dp"
+
+
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/edit_password_pg"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/edittext_corner_round_distributor"
+                    android:drawableLeft="@drawable/padlock"
+                    android:drawablePadding="10dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/show_pass_btn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:alpha=".5"
+                    android:onClick="ShowHidePass"
+                    android:padding="5dp"
+                    android:src="@drawable/eye_off_line" />
+            </RelativeLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/btn_login_pg"
+                    android:layout_weight="1"
+
+
+                    android:background="@drawable/black_button"
+                    android:fontFamily="@font/roboto_regular"
+                    android:shadowColor="@android:color/transparent"
+                    android:text="@string/login" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:adjustViewBounds="true"
+ />
+
+
+    </LinearLayout>
+</ScrollView>

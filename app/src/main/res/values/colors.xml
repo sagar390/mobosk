@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#50504f</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#ffd546</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange_circular_button">#DAB828</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="dark_gray">#B3000000</color>
+
+
+
+    <color name="club_net_surf">#FB541A</color>
+    <color name="cycle_comparison">#DF0048</color>
+    <color name="my_region">#418627</color>
+    <color name="add_new_distributor">#2A86EA</color>
+    <color name="shop_online">#FB8B1E</color>
+    <color name="shop_online_new">#d2ae6d</color>
+    <color name="business_analytics">#95c757</color>
+    <color name="my_account">#2CA1D2</color>
+    <color name="action_reports">#744CAA</color>
+    <color name="prospector">#2ACFD4</color>
+
+    <color name="btn__started">#70C311</color>
+    <color name="first_layer">#E1E9F1</color>
+    <color name="second_layer">#BCC4C8</color>
+
+    <color name="toolbar">#e4c367</color>
+    <color name="table">#c46314</color>
+    <color name="background_color">#009688</color>
+
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="gray">#90a6da</color>
+    <color name="button_selectorcolor">#29558C</color>
+    <color name="drawer_selected_color">#4DB4DB</color>
+    <color name="spannle">#0d6bc2</color>
+
+    <color name="cl_vio">#9400D3</color>
+    <color name="cl_ind">#4B0082</color>
+    <color name="cl_blu">#0000FF</color>
+    <color name="cl_gre">#65A219</color>
+    <color name="cl_ylo">#f1ce33</color>
+    <color name="cl_ora">#FF7F00</color>
+    <color name="cl_red">#f77083</color>
+
+
+</resources>

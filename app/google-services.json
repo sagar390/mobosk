@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "309564096866",
+    "firebase_url": "https://netsurf-attendance.firebaseio.com",
+    "project_id": "netsurf-attendance",
+    "storage_bucket": "netsurf-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309564096866:android:4720e0987fab0995",
+        "android_client_info": {
+          "package_name": "attendance.netsurf.netsurfattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309564096866-53bni8v2th9j41htnt71cobipdbfl9nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsX2qJOkvR7wGFiYlz1P6JTsLs8z8oNx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309564096866-53bni8v2th9j41htnt71cobipdbfl9nv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309564096866-sku665k8bqeh8b18pf0njfnou64as8c4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "NetsurfNetwork.NetsurfAttendance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

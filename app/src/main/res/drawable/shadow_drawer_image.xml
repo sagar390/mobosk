@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/second_layer"/>
+            <padding
+                android:bottom="@dimen/drawer_image_side_padding"
+                android:left="@dimen/drawer_image_side_padding"
+                android:right="@dimen/drawer_image_side_padding"
+                android:top="@dimen/drawer_image_side_padding"/>
+            <size
+                android:width="@dimen/forty_dp"
+                android:height="@dimen/forty_dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/first_layer"/>
+            <padding
+                android:bottom="@dimen/drawer_image_side_padding2"
+                android:left="@dimen/drawer_image_side_padding2"
+                android:right="@dimen/drawer_image_side_padding2"
+                android:top="@dimen/drawer_image_side_padding2"/>
+            <size
+                android:layout_width="@dimen/drawer_list_height"
+                android:layout_height="@dimen/drawer_list_height"/>
+        </shape>
+    </item>
+
+</layer-list>
